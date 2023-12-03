@@ -52,53 +52,18 @@
     <div class="container pt-3">
         <div class="container mt-5">
             <div class="border border-dark rounded p-3 m-5">
-                <form id="form_order">
-                    <legend class="mb-3">Обработать заказ</legend>
+                <form id="form_add_staff">
+                    <legend class="mb-3">Добавить сотрудника</legend>
                     <div class="mb-3">
-                        <label for="product_name" class="form-label">Название продукта</label>
-                        <input type="text" id="product_name" class="form-control" placeholder="Введите название продукта:" required>
+                        <label for="staff_name" class="form-label">ФИО сотрудника</label>
+                        <input type="text" id="staff_name" class="form-control" placeholder="Введите ФИО:" required>
                     </div>
-    
+
                     <div class="mb-3">
-                        <label for="brend_name" class="form-label">Брэнд</label>
-                        <input type="text" id="brend_name" class="form-control" placeholder="Введите название брэнда:" required>
-                    </div>
-    
-                    <div class="mb-3">
-                        <label for="model_name" class="form-label">Модель</label>
-                        <input type="text" id="model_name" class="form-control" placeholder="Введите название модели:" required>
-                    </div>
-    
-                    <div class="mb-3">
-                        <label for="text_specification" class="form-label">Техническая спецификация</label>
-                        <input type="textarea" id="text_specification" class="form-control" placeholder="Введите техническую спецификацию:" required>
-                    </div>
-    
-                    <div class="mb-3">
-                        <label for="garantity_period" class="form-label">Гарантийный период</label>
-                        <input type="date" id="garantity_period" class="form-control" placeholder="Введите гарантийный период:" required>
-                    </div>
-    
-                    <div class="mb-3">
-                        <label for="image_loader" class="form-label">Фотография</label>
-                        <input type="file" id="image_loader" class="form-control" placeholder="фотография">
+                        <label for="post_name" class="form-label">Занимаемая должность</label>
+                        <input type="text" id="post_name" class="form-control" placeholder="Введите должность:" required>
                     </div>
                     
-                    <div class="mb-3">
-                        <label for="client_name" class="form-label">ФИО клиента</label>
-                        <input type="text" id="client_name" class="form-control" placeholder="Введите ФИО:" required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="telephone_number" class="form-label">Номер телефона клиента</label>
-                        <input type="number" id="telephone_number" class="form-control" placeholder="Введите номер:" required>
-                    </div>
-    
-                    <div class="mb-3">
-                        <label for="date_order_acceptance" class="form-label">Дата принятия заказа</label>
-                        <input type="date" id="date_order_acceptance" class="form-control" placeholder="Дата принятия заказа" required>
-                    </div>
-
                     <div>
                         <input type="submit" value="Сохранить" class="btn btn-dark">
                     </div>

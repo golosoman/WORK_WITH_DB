@@ -63,6 +63,7 @@
                 <th scope="col">Сообщение о выполненной работе</th>
                 <th scope="col">Дата получения товара</th>
                 <th scope="col">Общая стоимость(с учетом гарантии)</th>
+                <th scope="col">Действие</th>
                 </tr>
             </thead>
             <tbody>
@@ -74,7 +75,18 @@
                 <td>да</td>
                 <td>20.28.2020</td>
                 <td>2323</td>
-                <td><button type="button" class="btn btn-outline-dark">Удалить</button></td>
+                <td>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Действие
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Изменить</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Удалить</a></li>
+                      </ul>
+                    </div>
+                  </td>
                 </tr>
                 <tr>
                 <th scope="row">id - 2</th>
@@ -84,7 +96,18 @@
                 <td>да</td>
                 <td>20.28.2020</td>
                 <td>0</td>
-                <td><button type="button" class="btn btn-outline-dark">Удалить</button></td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Действие
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Изменить</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Удалить</a></li>
+                        </ul>
+                    </div>
+                  </td>
                 </tr>
                 <tr>
                 <th scope="row">id - 3</th>
@@ -94,7 +117,18 @@
                 <td>да</td>
                 <td>20.28.2020</td>
                 <td>2323</td>
-                <td><button type="button" class="btn btn-outline-dark">Удалить</button></td>
+                <td>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Действие
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Изменить</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Удалить</a></li>
+                      </ul>
+                    </div>
+                  </td>
                 </tr>
             </tbody>
         </table>
